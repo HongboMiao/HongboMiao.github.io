@@ -38,8 +38,7 @@ redirect_from:
 
 - *2025.07 - 2025.09*，Batch To Batch 通信算子传输优化，腾讯犀牛鸟开源人才培养计划  
   面向 HBM 10K 离散块（128B–2MB）跨主机搬运场景，搭建端到端传输模块与一致性校验流程；实现批包与块处理优化、多通道并行、自适应动态切换发送/接收 API 的系统应用；全流程总耗时由 **194.64s** 降至 **152.69s（1.27×）**，大块 2MB 单轮耗时由 **10.78s** 降至 **7.29s（1.48×）**。  
-  取得荣誉：腾讯犀牛鸟开源人才培养计划开源贡献者、任务奖金获得者、优秀学生。
-  [[GitHub]](https://github.com/HongboMiao/Design-of-Batch-to-Batch-Communication-Operator)[[News]](https://blog.csdn.net/tencent__open/article/details/151729620)
+  取得荣誉：腾讯犀牛鸟开源人才培养计划开源贡献者、任务奖金获得者、优秀学[[GitHub]](https://github.com/HongboMiao/Design-of-Batch-to-Batch-Communication-Operator)[[News]](https://blog.csdn.net/tencent__open/article/details/151729620)
 
 - *2025.10 - 至今*，多模态融合应用，电子科技大学大数据研究中心  
   融合负荷历史序列与天气、节假日等外生特征构建多变量预测数据集；设计特征对齐与注意力融合方法，并系统比较 Transformer、LSTM、TCN 等模型在不同预测跨度下的表现（MAPE / MAE / RMSE）。
