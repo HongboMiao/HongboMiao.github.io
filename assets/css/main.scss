@@ -107,3 +107,85 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+/* Featured publication and compact secondary experience. */
+.gwbp-publication {
+    align-items: flex-start;
+    padding: 1em 0 1.5em;
+
+    .paper-box-image {
+        min-width: 0;
+
+        figure {
+            position: relative;
+            width: 100%;
+            margin: 0;
+        }
+
+        .badge {
+            position: static;
+            display: inline-block;
+            margin: 0 0 .75em;
+            padding: .2em .7em;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            max-width: 100%;
+            box-shadow: none;
+            border: 1px solid $border-color;
+        }
+
+        figcaption {
+            margin-top: .5em;
+            font-size: .8em;
+            line-height: 1.6;
+            text-align: center;
+        }
+    }
+
+    .paper-box-text {
+        min-width: 0;
+        overflow-wrap: break-word;
+    }
+
+    .publication-title {
+        margin: 0 0 .6em;
+        font-size: 1.05em;
+        line-height: 1.5;
+    }
+
+    .publication-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: .4em 1em;
+        margin-top: .8em;
+    }
+
+    @media (max-width: 767px) {
+        .paper-box-image {
+            margin-top: 1em;
+        }
+    }
+}
+
+.additional-experience {
+    margin: 1em 0 1.5em;
+    padding: .7em 1em;
+    border: 1px solid $border-color;
+    border-radius: 4px;
+
+    summary {
+        cursor: pointer;
+        color: $link-color;
+        font-weight: 600;
+    }
+
+    &[open] summary {
+        margin-bottom: .8em;
+    }
+}
+
+.page__content .anchor {
+    scroll-margin-top: 5em;
+}

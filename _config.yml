@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "缪弘博"
-description              : "majoring in Computer Science at Qinghai University"
+description              : "计算机科学与技术本科生 · GPU 并行计算与性能优化"
 repository               : "HongboMiao/HongboMiao.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "缪弘博"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "青海大学"
+  bio              : "Hongbo Miao · 青海大学"
   location         : "青海 西宁"
   employer         : #"Hefei General Machinery Research Institute"
   pubmed           : 
