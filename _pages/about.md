@@ -15,7 +15,7 @@ redirect_from:
 
 我是**缪弘博（Hongbo Miao）**，青海大学计算机科学与技术专业本科生。我主要围绕 **GPU 并行计算、通信与算子优化**开展学习和科研实践，也关注深度学习系统、推理优化与多尺度时序预测。
 
-我喜欢从实际应用中定位性能瓶颈，再通过算法实现、内存管理与并行调度改善端到端效率。近期的代表工作是 **GWBP**：面向冷冻电子断层重建的 GPU 加速加权反投影，相关论文已被 **Euro-Par 2026（CCF B）**接收，我是独立第一作者。
+我喜欢从实际应用中定位性能瓶颈，再通过算法实现、内存管理与并行调度改善端到端效率。
 
 欢迎通过[邮件](mailto:miaohongbo@qhu.edu.cn)交流相关实习机会与科研合作，也可以在 [GitHub](https://github.com/HongboMiao) 查看我的开源项目。
 
@@ -23,10 +23,9 @@ redirect_from:
 
 # 🔥 近期动态
 
-- **2026**：论文 **GWBP** 被 **Euro-Par 2026** 接收，独立第一作者。[论文](files/GWBP_Euro-Par.pdf) / [代码](https://github.com/OptiYouth-Lab/GWBP)
-- **2026**：作为队长，获得 **ASC 世界大学生超级计算机竞赛一等奖**。
-- **2026**：作为队长，获得**第十届华为 ICT 大赛挑战赛中国总决赛二等奖**。
-- **2025**：获得**国家奖学金**，入选腾讯犀牛鸟开源人才培养计划并获评**优秀学生**。
+- **2026.05**：论文 **GWBP** 被 **Euro-Par 2026** 接收。[论文](files/GWBP_Euro-Par.pdf) / [代码](https://github.com/OptiYouth-Lab/GWBP)
+- **2025.12**：获得**国家奖学金**。
+- **2025.10**：入选腾讯犀牛鸟开源人才培养计划并获评**腾讯开源贡献者**。
 
 <span class="anchor" id="-xscg"></span>
 <span class="anchor" id="publications"></span>
@@ -40,13 +39,13 @@ redirect_from:
       <a href="files/GWBP_Euro-Par.pdf" aria-label="阅读 GWBP 论文 PDF">
         <img src="images/gwbp-workflow.png" alt="GWBP 端到端流程：GPU 常驻数据、任务批处理与资源复用、双 stream 重叠调度" loading="lazy" width="1197" height="697">
       </a>
-      <figcaption>GWBP 的三阶段优化流程（论文 Figure 2）</figcaption>
+      <figcaption></figcaption>
     </figure>
   </div>
   <div class="paper-box-text">
     <h2 class="publication-title"><a href="files/GWBP_Euro-Par.pdf">GWBP: Accelerating Weighted Back-Projection for Image Reconstruction via Efficient GPU Parallel Optimization</a></h2>
     <p><strong>Hongbo Miao</strong>, Haodong Bian</p>
-    <p><em>Euro-Par 2026</em> · CCF B · 已接收 · <strong>独立第一作者</strong></p>
+    <p><em>Euro-Par 2026</em> · CCF B </p>
     <p>面向 cryo-ET 的加权反投影重建，将 weighting、3D-CTF correction 与 back-projection 迁移至 GPU，结合中间数据常驻、分片感知批处理、资源复用和双 stream 调度，优化完整重建流程。</p>
     <p>在单张 <strong>NVIDIA A100</strong>、<strong>Proteasome-A</strong> 数据集上，相比多核 CPU 基线，端到端时间从 <strong>3.131 s</strong> 降至 <strong>0.655 s</strong>，最高加速 <strong>4.78×</strong>。</p>
     <p class="publication-links"><a href="files/GWBP_Euro-Par.pdf">[论文 PDF]</a> <a href="https://github.com/OptiYouth-Lab/GWBP">[代码]</a> <a href="#gwbp-project">[个人工作]</a></p>
@@ -80,11 +79,11 @@ redirect_from:
 
 [GitHub](https://github.com/HongboMiao/Design-of-Batch-to-Batch-Communication-Operator) / [项目新闻](https://blog.csdn.net/tencent__open/article/details/151729620)
 
-## 区域气候模式热点算子性能优化
+## 面向高分辨区域模式的高可扩展并行及智能计算技术
 
 *2025.11 – 至今 · 国家超级计算无锡中心*
 
-参与“千万核可扩展公里级海陆气耦合区域气候模式及预测系统”项目。基于 **GPTL** 定位计算瓶颈，通过调整循环顺序、保持连续维度为内层循环及提前计算循环不变量优化访存与计算路径；结合 **OpenMP 多线程、AVX2 自动向量化与浮点优化**，在数值校验通过的前提下，实现热点算子最高 **3.996×** 加速。
+参与“千万核可扩展公里级海陆气耦合区域气候模式及预测系统”的子课题项目。基于 **GPTL** 定位计算瓶颈，通过调整循环顺序、保持连续维度为内层循环及提前计算循环不变量优化访存与计算路径；结合 **OpenMP 多线程、AVX2 自动向量化与浮点优化**，在数值校验通过的前提下，实现热点算子最高 **3.996×** 加速。
 
 ## 大小模型协同的电力负荷多尺度时序预测
 
@@ -126,7 +125,7 @@ redirect_from:
 
 - **2026**：ASC 世界大学生超级计算机竞赛，**一等奖 · 队长**。
 - **2026**：第十届华为 ICT 大赛挑战赛中国总决赛，**二等奖 · 队长**。
-- **2025**：ASC 世界大学生超级计算机竞赛，**二等奖 · 核心成员**。
+- **2025**：ASC 世界大学生超级计算机竞赛，**二等奖**。
 - **2025**：第五届线性解法器算法与性能优化竞赛，**二等奖**。
 - **2025**：全国大学生计算机系统能力大赛（先导杯），**三等奖**。
 - **2025**：第二届海洋计算挑战赛，**星锐奖**。
