@@ -17,7 +17,7 @@ redirect_from:
 
 我喜欢从实际应用中定位性能瓶颈，再通过算法实现、内存管理与并行调度改善端到端效率。
 
-欢迎通过[邮件](mailto:miaohongbo@qhu.edu.cn)交流相关实习机会与科研合作，也可以在 [GitHub](https://github.com/HongboMiao) 查看我的开源项目。
+欢迎通过[邮件](mailto:macro_bou@163.com)交流相关实习机会与科研合作，也可以在 [GitHub](https://github.com/HongboMiao) 查看我的开源项目。
 
 <span class="anchor" id="news"></span>
 
