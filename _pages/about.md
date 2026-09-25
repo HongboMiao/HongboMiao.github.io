@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "缪弘博 | Hongbo Miao"
-excerpt: "电子科技大学（深圳）准研究生（研0），研究生阶段为 2027.09–2030.06，关注 GPU 并行计算、通信与算子优化、AI 系统。GWBP 独立第一作者，Euro-Par 2026 接收。"
+title: "缪弘博"
+excerpt: "电子科技大学（深圳）准研究生，研究生阶段为 2027.09–2030.06，关注 GPU 并行计算、通信与算子优化、AI 系统。GWBP 独立第一作者，Euro-Par 2026 接收。"
 author_profile: true
 redirect_from:
   - /about/
