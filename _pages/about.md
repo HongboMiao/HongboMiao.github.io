@@ -50,7 +50,7 @@ redirect_from:
     <p><em>Euro-Par 2026</em> · CCF B </p>
     <p>面向 cryo-ET 的加权反投影重建，将 weighting、3D-CTF correction 与 back-projection 迁移至 GPU，结合中间数据常驻、分片感知批处理、资源复用和双 stream 调度，优化完整重建流程。</p>
     <p>在单张 <strong>NVIDIA A100</strong>、<strong>Proteasome-A</strong> 数据集上，相比多核 CPU 基线，端到端时间从 <strong>3.131 s</strong> 降至 <strong>0.655 s</strong>，最高加速 <strong>4.78×</strong>。</p>
-    <p class="publication-links"><a href="files/GWBP_Euro-Par.pdf">[论文 PDF]</a> <a href="https://github.com/OptiYouth-Lab/GWBP">[代码]</a> <a href="#gwbp-project">[个人工作]</a></p>
+    <p class="publication-links"><a href="files/GWBP_Euro-Par.pdf">[论文 PDF]</a> <a href="https://zenodo.org/records/20506358">[代码]</a> <a href="#gwbp-project">[个人工作]</a></p>
   </div>
 </div>
 
